@@ -151,5 +151,5 @@ def get_links(html):
 if __name__ == '__main__':
     #link_crawler('http://example.webscraping.com', '/(index|view)', delay=0, num_retries=1, user_agent='BadCrawler')
     #link_crawler('http://example.webscraping.com', '/(note)', delay=0, num_retries=1, max_depth=1,user_agent='GoodCrawler')
-    link_crawler('http://weibo.com/u/5249921593','/5249921593', delay=0, num_retries=1, max_depth=-1,user_agent='Baiduspider')
-    #link_crawler('https://www.zhihu.com/question', '/(question)?', delay=0, num_retries=1, max_depth=-1, user_agent='Baiduspider')
+    # link_crawler('http://weibo.com/u/5249921593','/5249921593', delay=0, num_retries=1, max_depth=1,user_agent='Baiduspider')
+    link_crawler('https://www.zhihu.com', '/(question)?', delay=0, num_retries=1, max_depth=-1, user_agent='Baiduspider')
